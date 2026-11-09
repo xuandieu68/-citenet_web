@@ -2,7 +2,7 @@
 
 Web tĩnh để **xem, lọc và tải** các bản đồ trích dẫn do công cụ **Citenet** tạo ra. Mỗi bản đồ xuất phát từ một DOI: bài đó trích dẫn ai (backward), ai trích dẫn lại nó (forward) và những bài liên quan.
 
-🔗 **Xem web:** https://xuandieu68.github.io/citenet-web/
+🔗 **Xem web:** https://xuandieu68.github.io/-citenet_web/
 
 ![Trang chủ](docs/images/home.png)
 
@@ -74,7 +74,7 @@ citenet-web/
 
 ```bash
 npm install
-npm run dev        # http://localhost:5173/citenet-web/
+npm run dev        # http://localhost:5173/-citenet_web/
 npm run build
 ```
 

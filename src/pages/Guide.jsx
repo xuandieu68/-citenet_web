@@ -77,7 +77,7 @@ export default function Guide() {
         <h2 className="mb-4 text-lg font-extrabold">Thêm một bản đồ mới</h2>
         <ol className="list-decimal space-y-2 pl-5 text-sm text-slate-700">
           <li>Chạy Citenet trên máy với DOI mới, ví dụ <code className="rounded bg-slate-100 px-1">.\run_citenet.ps1 "10.1016/j.bir.2024.04.014"</code>.</li>
-          <li>Trong thư mục <code className="rounded bg-slate-100 px-1">citenet-web</code>, chạy <code className="rounded bg-slate-100 px-1">python scripts/build_data.py "&lt;đường dẫn outputs/Citenet&gt;"</code>.</li>
+          <li>Trong thư mục web, chạy <code className="rounded bg-slate-100 px-1">python scripts/build_data.py "&lt;đường dẫn outputs/Citenet&gt;"</code>.</li>
           <li>Commit và push lên GitHub. Web tự cập nhật sau khoảng 30 giây.</li>
         </ol>
       </section>
