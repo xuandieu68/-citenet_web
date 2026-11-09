@@ -7,6 +7,9 @@ Cách chạy (từ thư mục gốc của citenet-web):
 Ví dụ trên Windows:
     python scripts/build_data.py "C:\\Users\\admin\\Documents\\Codex\\2026-07-07\\n-u-m-c-ti-u\\outputs\\Citenet"
 
+Chỉ các bản đồ có tên (slug) trong collection.json được đưa lên web.
+Thiếu collection.json thì đưa tất cả.
+
 Kết quả:
     public/data/index.json          danh sách bản đồ (mỗi DOI gốc một mục) + số liệu tổng
     public/data/papers.json         mọi tài liệu (gộp trùng theo DOI) + các bản đồ chứa nó
@@ -76,6 +79,19 @@ def main():
     if not folders:
         sys.exit(f"Không thấy thư mục kết quả nào có graph.json trong: {src}")
 
+    cfg_path = ROOT / "collection.json"
+    cfg = json.loads(cfg_path.read_text(encoding="utf-8")) if cfg_path.is_file() else {}
+    if cfg.get("maps"):
+        wanted = set(cfg["maps"])
+        missing = wanted - {p.name for p in folders}
+        if missing:
+            print("Cảnh báo, không tìm thấy:", ", ".join(sorted(missing)))
+        folders = [p for p in folders if p.name in wanted]
+
+    # Xóa dữ liệu cũ để bản đồ đã bỏ khỏi collection.json không còn trên web
+    for d in (OUT_DATA / "maps", OUT_DL):
+        if d.exists():
+            shutil.rmtree(d)
     (OUT_DATA / "maps").mkdir(parents=True, exist_ok=True)
     maps, papers = [], {}
 
@@ -134,6 +150,8 @@ def main():
 
     maps.sort(key=lambda m: m["generatedAt"], reverse=True)
     index = {
+        "title": cfg.get("title", "Bộ sưu tập"),
+        "description": cfg.get("description", ""),
         "builtFrom": "Citenet outputs",
         "updatedAt": max(m["generatedAt"] for m in maps),
         "totals": {

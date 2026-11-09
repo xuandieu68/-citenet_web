@@ -1,0 +1,12 @@
+{
+  "_comment": "Chỉ các bản đồ có slug trong danh sách 'maps' được đưa lên web. Các kết quả Citenet khác trên máy bạn vẫn giữ riêng.",
+  "title": "Bộ sưu tập mẫu",
+  "description": "Một vài bản đồ minh họa ở các hướng: cấu trúc vốn kinh điển, bất định kinh tế và đầu tư, tín dụng thương mại, chuyển đổi số và đổi mới xanh, học máy trong giao dịch tài sản.",
+  "maps": [
+    "10-1111-j-1540-6261-1991-tb03753-x",
+    "10-1080-09538259-2010-510317",
+    "10-1016-j-bir-2024-04-014",
+    "10-1177-03063070241308100",
+    "10-3390-systems14010111"
+  ]
+}
