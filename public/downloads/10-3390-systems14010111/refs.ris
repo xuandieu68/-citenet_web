@@ -1,0 +1,363 @@
+TY  - JOUR
+AU  - Deok Han
+AU  - YoungJun Kim
+TI  - Enhancing Reinforcement Learning-Based Crypto Asset Trading: Focusing on the Korean Venue Share Indicator
+JO  - Systems
+PY  - 2026
+DO  - 10.3390/systems14010111
+UR  - https://doi.org/10.3390/systems14010111
+ER  - 
+
+TY  - JOUR
+AU  - Morten Brandvold
+AU  - Péter Molnár
+AU  - Kristian Vagstad
+AU  - Ole Christian Andreas Valstad
+TI  - Price discovery on Bitcoin exchanges
+JO  - Journal of International Financial Markets Institutions and Money
+PY  - 2015
+DO  - 10.1016/j.intfin.2015.02.010
+UR  - https://doi.org/10.1016/j.intfin.2015.02.010
+ER  - 
+
+TY  - JOUR
+AU  - William F. Sharpe
+TI  - The Sharpe Ratio
+JO  - The Journal of Portfolio Management
+PY  - 1994
+DO  - 10.3905/jpm.1994.409501
+UR  - https://doi.org/10.3905/jpm.1994.409501
+ER  - 
+
+TY  - JOUR
+AU  - Peter J. Rousseeuw
+TI  - Silhouettes: A graphical aid to the interpretation and validation of cluster analysis
+JO  - Journal of Computational and Applied Mathematics
+PY  - 1987
+DO  - 10.1016/0377-0427(87)90125-7
+UR  - https://doi.org/10.1016/0377-0427(87)90125-7
+ER  - 
+
+TY  - JOUR
+AU  - Volodymyr Mnih
+AU  - Koray Kavukcuoglu
+AU  - David Silver
+AU  - Andrei A. Rusu
+AU  - Joel Veness
+AU  - Marc G. Bellemare
+AU  - Alex Graves
+AU  - Martin Riedmiller
+AU  - Andreas K. Fidjeland
+AU  - Georg Ostrovski
+AU  - Stig Petersen
+AU  - Charles Beattie
+AU  - Amir Sadik
+AU  - Ioannis Antonoglou
+AU  - Helen King
+AU  - Dharshan Kumaran
+AU  - Daan Wierstra
+AU  - Shane Legg
+AU  - Demis Hassabis
+TI  - Human-level control through deep reinforcement learning
+JO  - Nature
+PY  - 2015
+DO  - 10.1038/nature14236
+UR  - https://doi.org/10.1038/nature14236
+ER  - 
+
+TY  - JOUR
+AU  - Alessio Emanuele Biondo
+AU  - Alessandro Pluchino
+AU  - Andrea Rapisarda
+AU  - Dirk Helbing
+TI  - Are Random Trading Strategies More Successful than Technical Ones?
+JO  - PLoS ONE
+PY  - 2013
+DO  - 10.1371/journal.pone.0068344
+UR  - https://doi.org/10.1371/journal.pone.0068344
+ER  - 
+
+TY  - JOUR
+AU  - Ian T. Jolliffe
+AU  - Jorge F. C. L. Cadima
+TI  - Principal component analysis: a review and recent developments
+JO  - Philosophical Transactions of the Royal Society A Mathematical Physical and Engineering Sciences
+PY  - 2016
+DO  - 10.1098/rsta.2015.0202
+UR  - https://doi.org/10.1098/rsta.2015.0202
+ER  - 
+
+TY  - JOUR
+AU  - William Brock
+AU  - Josef Lakonishok
+AU  - Blake D. LeBaron
+TI  - Simple Technical Trading Rules and the Stochastic Properties of Stock Returns
+JO  - The Journal of Finance
+PY  - 1992
+DO  - 10.1111/j.1540-6261.1992.tb04681.x
+UR  - https://doi.org/10.1111/j.1540-6261.1992.tb04681.x
+ER  - 
+
+TY  - JOUR
+AU  - Igor Makarov
+AU  - Antoinette Schoar B
+TI  - Trading and Arbitrage in Cryptocurrency Markets
+JO  - Journal of Financial Economics
+PY  - 2018
+DO  - 10.1016/j.jfineco.2019.07.001
+UR  - https://doi.org/10.1016/j.jfineco.2019.07.001
+ER  - 
+
+TY  - JOUR
+AU  - Robert D. mname Arnott
+AU  - Campbell R. Harvey
+AU  - Harry M. Markowitz
+TI  - A Backtesting Protocol in the Era of Machine Learning
+JO  - The Journal of Financial Data Science
+PY  - 2019
+DO  - 10.3905/jfds.2019.1.064
+UR  - https://doi.org/10.3905/jfds.2019.1.064
+ER  - 
+
+TY  - JOUR
+AU  - Dirk F. Gerritsen
+AU  - Elie I. Bouri
+AU  - Ehsan Ramezanifar
+AU  - David Roubaud
+TI  - The profitability of technical trading rules in the Bitcoin market
+JO  - Finance research letters
+PY  - 2019
+DO  - 10.1016/j.frl.2019.08.011
+UR  - https://doi.org/10.1016/j.frl.2019.08.011
+ER  - 
+
+TY  - JOUR
+AU  - Dan Gabriel Anghel
+TI  - A reality check on trading rule performance in the cryptocurrency market: Machine learning vs. technical analysis
+JO  - Finance research letters
+PY  - 2020
+DO  - 10.1016/j.frl.2020.101655
+UR  - https://doi.org/10.1016/j.frl.2020.101655
+ER  - 
+
+TY  - JOUR
+AU  - Robert S. Hudson
+AU  - Andrew Urquhart
+TI  - Technical trading and cryptocurrencies
+JO  - Annals of Operations Research
+PY  - 2019
+DO  - 10.1007/s10479-019-03357-1
+UR  - https://doi.org/10.1007/s10479-019-03357-1
+ER  - 
+
+TY  - JOUR
+AU  - Oliver Entrop
+AU  - Bart Frijns
+AU  - Marco Seruset
+TI  - The determinants of price discovery on bitcoin markets
+JO  - Journal of Futures Markets
+PY  - 2020
+DO  - 10.1002/fut.22101
+UR  - https://doi.org/10.1002/fut.22101
+ER  - 
+
+TY  - JOUR
+AU  - Zhengyao Jiang
+AU  - Jinjun Liang
+TI  - Cryptocurrency portfolio management with deep reinforcement learning
+JO  - Intelligent Systems Conference (IntelliSys)
+PY  - 2017
+DO  - 10.1109/intellisys.2017.8324237
+UR  - https://doi.org/10.1109/intellisys.2017.8324237
+ER  - 
+
+TY  - JOUR
+AU  - Carol Alexander
+AU  - Daniel F. Heck
+TI  - Price discovery in Bitcoin: The impact of unregulated markets
+JO  - Journal of Financial Stability
+PY  - 2020
+DO  - 10.1016/j.jfs.2020.100776
+UR  - https://doi.org/10.1016/j.jfs.2020.100776
+ER  - 
+
+TY  - JOUR
+AU  - Thomas Dimpfl
+AU  - Franziska Julia Peter
+TI  - Nothing but noise? Price discovery across cryptocurrency exchanges
+JO  - Journal of Financial Markets
+PY  - 2020
+DO  - 10.1016/j.finmar.2020.100584
+UR  - https://doi.org/10.1016/j.finmar.2020.100584
+ER  - 
+
+TY  - JOUR
+AU  - Ola Mahmoud
+AU  - Lisa R. Goldberg
+TI  - Drawdown: From Practice to Theory and Back Again
+JO  - Alexandria (UniSG) (University of St.Gallen)
+PY  - 2017
+DO  - 10.1007/s11579-016-0181-9
+UR  - https://www.alexandria.unisg.ch/handle/20.500.14171/102335
+ER  - 
+
+TY  - JOUR
+AU  - Thomas Edward Koker
+AU  - Dimitrios Koutmos
+TI  - Cryptocurrency Trading Using Machine Learning
+JO  - Journal of risk and financial management
+PY  - 2020
+DO  - 10.3390/jrfm13080178
+UR  - https://doi.org/10.3390/jrfm13080178
+ER  - 
+
+TY  - JOUR
+AU  - Jangyoun Lee
+AU  - Taehee Oh
+TI  - The Kimchi premium and bitcoin-cashing outlets
+JO  - Finance research letters
+PY  - 2022
+DO  - 10.1016/j.frl.2022.103200
+UR  - https://doi.org/10.1016/j.frl.2022.103200
+ER  - 
+
+TY  - JOUR
+AU  - David H. Bailey
+AU  - Jonathan Michael Borwein
+AU  - Marcos López de Prado
+AU  - Qiji Jim Zhu
+TI  - Pseudo-Mathematics and Financial Charlatanism: The Effects of Backtest Overfitting on Out-of-Sample Performance
+JO  - Notices of the American Mathematical Society
+PY  - 2014
+DO  - 10.1090/noti1105
+UR  - https://doi.org/10.1090/noti1105
+ER  - 
+
+TY  - JOUR
+AU  - Fan Fang
+AU  - Carmine Ventre
+AU  - Michail Basios
+AU  - Leslie Kanthan
+AU  - David Martínez‐Rego
+AU  - Fan Wu
+AU  - Lingbo Li
+TI  - Cryptocurrency trading: a comprehensive survey
+JO  - Financial Innovation
+PY  - 2022
+DO  - 10.1186/s40854-021-00321-6
+UR  - https://doi.org/10.1186/s40854-021-00321-6
+ER  - 
+
+TY  - JOUR
+AU  - Qizhou Sun
+AU  - Xueyuan Gong
+AU  - Yain‐Whar Si
+TI  - Transaction-aware inverse reinforcement learning for trading in stock markets
+JO  - Applied Intelligence
+PY  - 2023
+DO  - 10.1007/s10489-023-04959-w
+UR  - https://doi.org/10.1007/s10489-023-04959-w
+ER  - 
+
+TY  - JOUR
+AU  - J M de Almeida
+AU  - Tiago Cruz Gonçalves
+TI  - Cryptocurrency market microstructure: a systematic literature review
+JO  - Annals of Operations Research
+PY  - 2023
+DO  - 10.1007/s10479-023-05627-5
+UR  - https://doi.org/10.1007/s10479-023-05627-5
+ER  - 
+
+TY  - JOUR
+AU  - Karthik Natashekara
+AU  - Aravind Sampath
+TI  - Informed trading and cryptocurrencies. New evidence using tick-by-tick data
+JO  - Finance research letters
+PY  - 2023
+DO  - 10.1016/j.frl.2023.104909
+UR  - https://doi.org/10.1016/j.frl.2023.104909
+ER  - 
+
+TY  - JOUR
+AU  - Ming-Che Lee
+TI  - Bitcoin Trend Prediction with Attention-Based Deep Learning Models and Technical Indicators
+JO  - Systems
+PY  - 2024
+DO  - 10.3390/systems12110498
+UR  - https://doi.org/10.3390/systems12110498
+ER  - 
+
+TY  - JOUR
+AU  - Hongshen Yang
+AU  - Avinash Malik
+TI  - Reinforcement Learning Pair Trading: A Dynamic Scaling Approach
+JO  - Journal of risk and financial management
+PY  - 2024
+DO  - 10.3390/jrfm17120555
+UR  - https://doi.org/10.3390/jrfm17120555
+ER  - 
+
+TY  - JOUR
+AU  - Yue Liu
+AU  - Lichang Zhang
+AU  - Pierre Failler
+AU  - Zirui Wang
+TI  - The Dynamic Evolution of Agricultural Trade Network Structures and Its Influencing Factors: Evidence from Global Soybean Trade
+JO  - Systems
+PY  - 2025
+DO  - 10.3390/systems13040279
+UR  - https://doi.org/10.3390/systems13040279
+ER  - 
+
+TY  - JOUR
+AU  - Ming-Che Lee
+TI  - Temporal Fusion Transformer-Based Trading Strategy for Multi-Crypto Assets Using On-Chain and Technical Indicators
+JO  - Systems
+PY  - 2025
+DO  - 10.3390/systems13060474
+UR  - https://doi.org/10.3390/systems13060474
+ER  - 
+
+TY  - JOUR
+AU  - Ji Young Choi
+AU  - Chae Young Lee
+AU  - Man‐Suk Oh
+TI  - Discovering causal relationships among financial variables associated with firm value using a dynamic Bayesian network
+JO  - Data Science in Finance and Economics
+PY  - 2025
+DO  - 10.3934/dsfe.2025001
+UR  - https://doi.org/10.3934/dsfe.2025001
+ER  - 
+
+TY  - JOUR
+AU  - Myung Hwan Seo
+AU  - Bonsoo Koo
+AU  - Yangzhuoran Fin Yang
+TI  - Nonlinear dynamics of Kimchi premium
+JO  - Economic Modelling
+PY  - 2024
+DO  - 10.1016/j.econmod.2024.106726
+UR  - https://doi.org/10.1016/j.econmod.2024.106726
+ER  - 
+
+TY  - JOUR
+AU  - Menachem Meni Abudy
+AU  - Guy Kaplanski
+AU  - Yevgeny Mugerman
+TI  - Market timing with moving average distance: International evidence
+JO  - Journal of International Financial Markets Institutions and Money
+PY  - 2024
+DO  - 10.1016/j.intfin.2024.102065
+UR  - https://doi.org/10.1016/j.intfin.2024.102065
+ER  - 
+
+TY  - JOUR
+AU  - Lisa R. Goldberg
+AU  - Ola Mahmoud
+TI  - Drawdown: from practice to theory and back again
+JO  - Mathematics and Financial Economics
+PY  - 2016
+DO  - 10.1007/s11579-016-0181-9
+UR  - https://doi.org/10.1007/s11579-016-0181-9
+ER  - 

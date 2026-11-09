@@ -1,0 +1,1316 @@
+{
+ "builtFrom": "Citenet outputs",
+ "updatedAt": "2026-10-23",
+ "totals": {
+  "maps": 24,
+  "nodes": 1672,
+  "edges": 1648,
+  "uniquePapers": 1547,
+  "sharedPapers": 77
+ },
+ "maps": [
+  {
+   "slug": "10-1016-j-eap-2024-07-006",
+   "doi": "10.1016/j.eap.2024.07.006",
+   "title": "Does economic policy uncertainty influence executive compensation stickiness? Firm-level evidence from China",
+   "year": 2024,
+   "journal": "Economic Analysis and Policy",
+   "authors": [
+    "Qiaoyu Jia",
+    "Jianan Zhou"
+   ],
+   "abstract": "",
+   "concepts": [
+    "Executive compensation",
+    "China",
+    "Compensation (psychology)",
+    "Business",
+    "Economics"
+   ],
+   "domain": "general research",
+   "papers": 82,
+   "edges": 81,
+   "backward": 62,
+   "forward": 12,
+   "related": 7,
+   "needsReview": 59,
+   "abstractCoverage": 44,
+   "backwardCandidates": 130,
+   "crossrefRefs": 77,
+   "elapsed": 8.5,
+   "generatedAt": "2026-10-23",
+   "topCited": [
+    {
+     "title": "Theory of the firm: Managerial behavior, agency costs and ownership structure",
+     "year": 1976,
+     "cites": 70845
+    },
+    {
+     "title": "Measuring Economic Policy Uncertainty*",
+     "year": 2016,
+     "cites": 12290
+    },
+    {
+     "title": "Moral Hazard and Observability",
+     "year": 1979,
+     "cites": 8353
+    }
+   ],
+   "files": [
+    "refs.csv",
+    "refs.ris",
+    "refs.bib",
+    "summary.md"
+   ]
+  },
+  {
+   "slug": "10-1016-j-frl-2026-110930",
+   "doi": "10.1016/j.frl.2026.110930",
+   "title": "Asymmetric effects of policy uncertainty on aggregate earnings",
+   "year": 2026,
+   "journal": "Finance research letters",
+   "authors": [
+    "Weiyi Kang",
+    "Jing Wang"
+   ],
+   "abstract": "",
+   "concepts": [
+    "Earnings",
+    "Economics",
+    "Volatility (finance)",
+    "Restructuring",
+    "Core inflation"
+   ],
+   "domain": "finance / management / machine learning",
+   "papers": 26,
+   "edges": 25,
+   "backward": 25,
+   "forward": 0,
+   "related": 0,
+   "needsReview": 15,
+   "abstractCoverage": 81,
+   "backwardCandidates": 49,
+   "crossrefRefs": 30,
+   "elapsed": 5.4,
+   "generatedAt": "2026-10-23",
+   "topCited": [
+    {
+     "title": "Measuring Economic Policy Uncertainty*",
+     "year": 2016,
+     "cites": 12290
+    },
+    {
+     "title": "The Impact of Uncertainty Shocks",
+     "year": 2009,
+     "cites": 5902
+    },
+    {
+     "title": "Irreversibility, Uncertainty, and Cyclical Investment",
+     "year": 1980,
+     "cites": 4126
+    }
+   ],
+   "files": [
+    "refs.csv",
+    "refs.ris",
+    "refs.bib",
+    "summary.md"
+   ]
+  },
+  {
+   "slug": "10-1016-j-jfs-2025-101408",
+   "doi": "10.1016/j.jfs.2025.101408",
+   "title": "Geopolitical risk and corporate maturity mismatch",
+   "year": 2025,
+   "journal": "Journal of Financial Stability",
+   "authors": [
+    "Man Wang",
+    "Man Wang",
+    "Xueting Wang"
+   ],
+   "abstract": "",
+   "concepts": [
+    "Geopolitics",
+    "Maturity (psychological)",
+    "Business",
+    "Financial system",
+    "Economics"
+   ],
+   "domain": "finance / management / machine learning",
+   "papers": 98,
+   "edges": 97,
+   "backward": 81,
+   "forward": 11,
+   "related": 5,
+   "needsReview": 77,
+   "abstractCoverage": 44,
+   "backwardCandidates": 157,
+   "crossrefRefs": 79,
+   "elapsed": 15.6,
+   "generatedAt": "2026-10-23",
+   "topCited": [
+    {
+     "title": "Determinants of corporate borrowing",
+     "year": 1977,
+     "cites": 13154
+    },
+    {
+     "title": "The Determinants of Capital Structure Choice",
+     "year": 1988,
+     "cites": 6107
+    },
+    {
+     "title": "New Evidence on Measuring Financial Constraints: Moving Beyond the KZ Index",
+     "year": 2010,
+     "cites": 5560
+    }
+   ],
+   "files": [
+    "refs.csv",
+    "refs.ris",
+    "refs.bib",
+    "summary.md"
+   ]
+  },
+  {
+   "slug": "10-1016-j-pacfin-2026-103294",
+   "doi": "10.1016/j.pacfin.2026.103294",
+   "title": "The impact of China's new-generation artificial intelligence innovative development pilot zone policy on firms' investment–financing maturity mismatch: Evidence from Chinese listed companies",
+   "year": 2026,
+   "journal": "Pacific-Basin Finance Journal",
+   "authors": [
+    "Feng Qiaogen",
+    "Mei Liyuan",
+    "Yike Yang",
+    "Qi Liu"
+   ],
+   "abstract": "",
+   "concepts": [
+    "Maturity (psychological)",
+    "Business",
+    "Capability Maturity Model",
+    "Marketing",
+    "Industrial organization"
+   ],
+   "domain": "finance / management / machine learning",
+   "papers": 58,
+   "edges": 57,
+   "backward": 56,
+   "forward": 1,
+   "related": 0,
+   "needsReview": 43,
+   "abstractCoverage": 52,
+   "backwardCandidates": 97,
+   "crossrefRefs": 46,
+   "elapsed": 10.8,
+   "generatedAt": "2026-10-23",
+   "topCited": [
+    {
+     "title": "Theory of the firm: Managerial behavior, agency costs and ownership structure",
+     "year": 1976,
+     "cites": 70845
+    },
+    {
+     "title": "Determinants of corporate borrowing",
+     "year": 1977,
+     "cites": 13154
+    },
+    {
+     "title": "Difference-in-Differences with multiple time periods",
+     "year": 2020,
+     "cites": 8997
+    }
+   ],
+   "files": [
+    "refs.csv",
+    "refs.ris",
+    "refs.bib",
+    "summary.md"
+   ]
+  },
+  {
+   "slug": "10-1080-09538259-2010-510317",
+   "doi": "10.1080/09538259.2010.510317",
+   "title": "Financial Uncertainty and Business Investment",
+   "year": 2010,
+   "journal": "Review of Political Economy",
+   "authors": [
+    "Engelbert Stockhammer",
+    "Lucas Grafl"
+   ],
+   "abstract": "The paper contributes to the empirical analysis of financial uncertainty and investment from a Post Keynesian perspective. The paper uses the volatility of the exchange rate, the volatility of the stock market index, and the real gold price as indicators for financial uncertainty. An increase in the volatility of a variable is a sufficient, but not a necessary condition for an increase in uncertainty regarding this variable. The effects of changes in uncertainty on investment are investigated econometrically for the United States, the United Kingdom, the Netherlands, Germany and France. Financial uncertainty, we find, has significant negative effects in the US and the Netherlands.",
+   "concepts": [
+    "Economics",
+    "Volatility (finance)",
+    "Implied volatility",
+    "Financial economics",
+    "Business cycle"
+   ],
+   "domain": "finance / management / machine learning",
+   "papers": 122,
+   "edges": 121,
+   "backward": 98,
+   "forward": 20,
+   "related": 3,
+   "needsReview": 88,
+   "abstractCoverage": 71,
+   "backwardCandidates": 128,
+   "crossrefRefs": 32,
+   "elapsed": 12.6,
+   "generatedAt": "2026-10-23",
+   "topCited": [
+    {
+     "title": "The General Theory of Employment, Interest and Money.",
+     "year": 1936,
+     "cites": 14486
+    },
+    {
+     "title": "The General Theory of Employment, Interest and Money.",
+     "year": 1936,
+     "cites": 12562
+    },
+    {
+     "title": "The General Theory of Employment, Interest and Money, by John Maynard Keynes",
+     "year": 1936,
+     "cites": 6220
+    }
+   ],
+   "files": [
+    "refs.csv",
+    "refs.ris",
+    "refs.bib",
+    "summary.md"
+   ]
+  },
+  {
+   "slug": "10-1108-jaee-05-2025-0250",
+   "doi": "10.1108/jaee-05-2025-0250",
+   "title": "Economic uncertainty and earnings management coupled with corruption in developing economies",
+   "year": 2026,
+   "journal": "Journal of Accounting in Emerging Economies",
+   "authors": [
+    "Martha Coleman",
+    "Abdul‐Rashid Abdul‐Rahaman",
+    "Lydia Nyankom Takyi",
+    "Kingsley Anfom"
+   ],
+   "abstract": "Purpose This study looks at the influence of economic uncertainty and corruption on accrual earnings management, taking into consideration the moderation of the board structure index. Design/methodology/approach This study used data from manufacturing companies listed on the Nigerian and Ghanaian stock exchanges for the period 2012–2022. Data extracted from the annual financial report, with some provided on the Wall Street Journal Database. The two countries have a total of 137 listed manufacturing companies. Companies with serious missing annual financial data were dropped, giving a total of 103 companies from both countries (Nigeria and Ghana), with a total observation for the study being 1,122. To assess the effect of corporate governance mechanisms on earnings management of various listed firms in Nigeria and Ghana, using the estimated residuals of accrual-based earnings management. Findings This study uses fixed effects and two-stage system GMM estimations to test hypotheses. The results of the analysis revealed that economic uncertainties and corruption increase and earnings management also increases. This is seen in most African economies; corruption is on the rise and is encountering a lot of political and economic uncertainties. We also discovered that board structure negatively moderates the economic uncertainty, corruption and earnings management relationship. Practical implications This study gives evidence that good corporate governance mechanisms (board structure) reduce earnings management practices by managers in a season of high economic uncertainty and corruption, enhancing operational efficiency, which will lead to the maximization of shareholders' wealth. Taking West Africa into consideration, it suggests intensified research in this area for corruption reduction at the country and firm levels. Originality/value This study provides interesting findings to policymakers in the full implementation of anti-corruption policy in addressing corruption in the country. It further informs investors of measures to put in place during high economic uncertainty, most especially pre- and post-election periods.",
+   "concepts": [
+    "Earnings management",
+    "Accrual",
+    "Corporate governance",
+    "Language change",
+    "Earnings"
+   ],
+   "domain": "finance / management / machine learning",
+   "papers": 119,
+   "edges": 118,
+   "backward": 118,
+   "forward": 0,
+   "related": 0,
+   "needsReview": 77,
+   "abstractCoverage": 54,
+   "backwardCandidates": 234,
+   "crossrefRefs": 148,
+   "elapsed": 19.4,
+   "generatedAt": "2026-10-23",
+   "topCited": [
+    {
+     "title": "Theory of the firm: Managerial behavior, agency costs and ownership structure",
+     "year": 1976,
+     "cites": 70845
+    },
+    {
+     "title": "Initial conditions and moment restrictions in dynamic panel data models",
+     "year": 1998,
+     "cites": 22521
+    },
+    {
+     "title": "Another look at the instrumental variable estimation of error-components models",
+     "year": 1995,
+     "cites": 19954
+    }
+   ],
+   "files": [
+    "refs.csv",
+    "refs.ris",
+    "refs.bib",
+    "summary.md"
+   ]
+  },
+  {
+   "slug": "10-1111-j-1540-6261-1977-tb03267-x",
+   "doi": "10.1111/j.1540-6261.1977.tb03267.x",
+   "title": "DEBT AND TAXES*",
+   "year": 1977,
+   "journal": "The Journal of Finance",
+   "authors": [
+    "Merton H. Miller"
+   ],
+   "abstract": "THE SOMEWHAT HETERODOX VIEWS about debt and taxes that will be presented here have evolved over the last few years in the course of countless discussions with several of my present and former colleagues in the Finance group at Chicago-Fischer Black, Robert Hamada, Roger Ibbotson, Myron Scholes and especially Eugene Fama.Charles Upton and Joseph Williams have also been particularly helpful to me recently in clarifying the main issues.'My long-time friend and collaborator, Franco Modigliani, is absolved from any blame for the views to follow not because I think he would reject them, but because he has been absorbed in preparing his Presidential Address to the American Economic Association at this same Convention",
+   "concepts": [
+    "Economics",
+    "Debt",
+    "Monetary economics",
+    "Financial system",
+    "Finance"
+   ],
+   "domain": "finance / management / machine learning",
+   "papers": 54,
+   "edges": 53,
+   "backward": 31,
+   "forward": 20,
+   "related": 2,
+   "needsReview": 50,
+   "abstractCoverage": 43,
+   "backwardCandidates": 49,
+   "crossrefRefs": 40,
+   "elapsed": 5.4,
+   "generatedAt": "2026-10-23",
+   "topCited": [
+    {
+     "title": "Theory of the firm: Managerial behavior, agency costs and ownership structure",
+     "year": 1976,
+     "cites": 70845
+    },
+    {
+     "title": "The Cost of Capital, Corporation Finance and the Theory of Investment",
+     "year": 1958,
+     "cites": 14494
+    },
+    {
+     "title": "Determinants of corporate borrowing",
+     "year": 1977,
+     "cites": 13154
+    }
+   ],
+   "files": [
+    "refs.csv",
+    "refs.ris",
+    "refs.bib",
+    "summary.md"
+   ]
+  },
+  {
+   "slug": "10-1111-j-1540-6261-1991-tb03753-x",
+   "doi": "10.1111/j.1540-6261.1991.tb03753.x",
+   "title": "The Theory of Capital Structure",
+   "year": 1991,
+   "journal": "The Journal of Finance",
+   "authors": [
+    "Milton Harris",
+    "Artur Raviv"
+   ],
+   "abstract": "ABSTRACT This paper surveys capital structure theories based on agency costs, asymmetric information, product/input market interactions, and corporate control considerations (but excluding tax‐based theories). For each type of model, a brief overview of the papers surveyed and their relation to each other is provided. The central papers are described in some detail, and their results are summarized and followed by a discussion of related extensions. Each section concludes with a summary of the main implications of the models surveyed in the section. Finally, these results are collected and compared to the available evidence. Suggestions for future research are provided.",
+   "concepts": [
+    "Section (typography)",
+    "Capital structure",
+    "Relation (database)",
+    "Agency (philosophy)",
+    "Control (management)"
+   ],
+   "domain": "finance / management / machine learning",
+   "papers": 137,
+   "edges": 136,
+   "backward": 109,
+   "forward": 20,
+   "related": 7,
+   "needsReview": 112,
+   "abstractCoverage": 62,
+   "backwardCandidates": 192,
+   "crossrefRefs": 118,
+   "elapsed": 18.4,
+   "generatedAt": "2026-10-23",
+   "topCited": [
+    {
+     "title": "Theory of the firm: Managerial behavior, agency costs and ownership structure",
+     "year": 1976,
+     "cites": 70845
+    },
+    {
+     "title": "Corporate financing and investment decisions when firms have information that investors do not have",
+     "year": 1984,
+     "cites": 19343
+    },
+    {
+     "title": "Agency Costs of Free Cash Flow, Corporate Finance, and Takeovers",
+     "year": 1986,
+     "cites": 17216
+    }
+   ],
+   "files": [
+    "refs.csv",
+    "refs.ris",
+    "refs.bib",
+    "summary.md"
+   ]
+  },
+  {
+   "slug": "10-3389-fclim-2026-1915353",
+   "doi": "10.3389/fclim.2026.1915353",
+   "title": "Geopolitical risk, green finance, and corporate environmental performance: evidence from global uncertainty shocks",
+   "year": 2026,
+   "journal": "Frontiers in Climate",
+   "authors": [
+    "vidura perera"
+   ],
+   "abstract": "Introduction The growing importance of sustainable finance has intensified interest in understanding how green finance contributes to corporate environmental performance (CEP). However, prior studies have largely assumed a stable relationship between green finance and environmental outcomes, giving limited attention to the disruptive effects of geopolitical uncertainty. This study examines the effect of green finance on CEP and investigates whether geopolitical risk alters the effectiveness of green finance across different institutional and industrial contexts. Methods The study uses a global panel dataset comprising 15,872 firm-year observations across multiple countries and industries. The empirical analysis applies fixed-effects estimation, moderation analysis, System Generalized Method of Moments (System GMM), and panel threshold regression. Industry heterogeneity and governance effects are also examined. In addition, machine learning techniques, including Random Forest, Gradient Boosting Regression Trees (GBRT), XGBoost, and SHAP analysis, are employed to assess predictive performance and identify the relative importance of key determinants of CEP. Results The findings show that green finance significantly improves corporate environmental performance, while geopolitical risk has a significant negative effect on environmental outcomes. The interaction between green finance and geopolitical risk is negative and statistically significant, demonstrating that geopolitical uncertainty weakens the environmental effectiveness of green finance. Panel threshold analysis identifies a critical geopolitical risk threshold of τ = 142.8, beyond which the positive effect of green finance declines substantially. Energy-intensive industries are found to be more vulnerable to geopolitical shocks than non-energy-intensive sectors. Governance quality strengthens the positive environmental effects of green finance and serves as an important resilience mechanism under uncertain conditions. Among the machine learning models, XGBoost achieves the highest predictive accuracy (R 2 = 0.72), while SHAP analysis identifies green finance, geopolitical risk, and governance quality as the most influential predictors of CEP. Discussion The results demonstrate that the effectiveness of green finance is conditional rather than uniform across geopolitical and institutional environments. The study contributes to the sustainable finance literature by introducing and empirically validating the Geopolitical Adaptive Green Finance Effectiveness Theory (G-AGFET), which proposes that the environmental effectiveness of green finance depends on geopolitical stability, governance quality, and institutional resilience. The findings suggest that policymakers should strengthen governance frameworks and design adaptive green finance mechanisms that remain effective during periods of geopolitical uncertainty. Investors and corporate managers should similarly incorporate geopolitical risk and institutional quality into sustainable investment and environmental strategy decisions.",
+   "concepts": [
+    "Geopolitics",
+    "Corporate governance",
+    "Economics",
+    "Panel data",
+    "Environmental governance"
+   ],
+   "domain": "finance / management / machine learning",
+   "papers": 29,
+   "edges": 28,
+   "backward": 28,
+   "forward": 0,
+   "related": 0,
+   "needsReview": 14,
+   "abstractCoverage": 69,
+   "backwardCandidates": 56,
+   "crossrefRefs": 43,
+   "elapsed": 6.1,
+   "generatedAt": "2026-10-23",
+   "topCited": [
+    {
+     "title": "Theory of the firm: Managerial behavior, agency costs and ownership structure",
+     "year": 1976,
+     "cites": 70845
+    },
+    {
+     "title": "Firm Resources and Sustained Competitive Advantage",
+     "year": 1991,
+     "cites": 48118
+    },
+    {
+     "title": "The Iron Cage Revisited: Institutional Isomorphism and Collective Rationality in Organizational Fields",
+     "year": 1983,
+     "cites": 38302
+    }
+   ],
+   "files": [
+    "refs.csv",
+    "refs.ris",
+    "refs.bib",
+    "summary.md"
+   ]
+  },
+  {
+   "slug": "10-3390-systems14010111",
+   "doi": "10.3390/systems14010111",
+   "title": "Enhancing Reinforcement Learning-Based Crypto Asset Trading: Focusing on the Korean Venue Share Indicator",
+   "year": 2026,
+   "journal": "Systems",
+   "authors": [
+    "Deok Han",
+    "YoungJun Kim"
+   ],
+   "abstract": "Crypto asset markets are often described as globally integrated. However, empirical evidence suggests that they remain segmented across exchanges and jurisdictions. One notable example is the Korean premium (i.e., Kimchi premium), which refers to persistent price gaps between Korean exchanges and offshore venues. The Korean market accounts for a substantial share of global crypto trading activity. Therefore, this segmentation can affect price discovery and create opportunities for systematic trading. Motivated by the Korean premium, this study introduces the Korean Venue Share Indicator (KVSI). Based on the price discovery literature, KVSI is an interpretable venue-level indicator that uses the relative trading volume share between Korean and global exchanges. This study integrates KVSI into the state space of multiple reinforcement learning algorithms to evaluate whether venue-level information improves trading decisions. The results show that the proposed model with KVSI achieves statistically significant improvements in cumulative return (CR), Sharpe ratio (SR), and maximum drawdown (MDD) compared to the baseline model without KVSI. It also achieves higher CR and mixed effects on risk metrics (SR, MDD) relative to benchmark strategies. Additional analyses indicate that the performance gains from KVSI are market-regime-dependent. Overall, the findings have practical implications for developing cross-market systematic trading strategies by leveraging a venue-level indicator as a proxy for market segmentation.",
+   "concepts": [
+    "Sharpe ratio",
+    "Proxy (statistics)",
+    "Drawdown (hydrology)",
+    "Econometrics",
+    "Reinforcement learning"
+   ],
+   "domain": "general research",
+   "papers": 33,
+   "edges": 32,
+   "backward": 32,
+   "forward": 0,
+   "related": 0,
+   "needsReview": 21,
+   "abstractCoverage": 58,
+   "backwardCandidates": 62,
+   "crossrefRefs": 53,
+   "elapsed": 6.3,
+   "generatedAt": "2026-10-23",
+   "topCited": [
+    {
+     "title": "Human-level control through deep reinforcement learning",
+     "year": 2015,
+     "cites": 30267
+    },
+    {
+     "title": "Silhouettes: A graphical aid to the interpretation and validation of cluster analysis",
+     "year": 1987,
+     "cites": 21306
+    },
+    {
+     "title": "Principal component analysis: a review and recent developments",
+     "year": 2016,
+     "cites": 10038
+    }
+   ],
+   "files": [
+    "refs.csv",
+    "refs.ris",
+    "refs.bib",
+    "summary.md"
+   ]
+  },
+  {
+   "slug": "10-3934-dsfe-2025001",
+   "doi": "10.3934/dsfe.2025001",
+   "title": "Discovering causal relationships among financial variables associated with firm value using a dynamic Bayesian network",
+   "year": 2025,
+   "journal": "Data Science in Finance and Economics",
+   "authors": [
+    "Ji Young Choi",
+    "Chae Young Lee",
+    "Man‐Suk Oh"
+   ],
+   "abstract": "This study investigated the causal relationships among financial variables associated with firm value using a Causal Dynamic Bayesian Network (CDBN), which is an extension of the basic Bayesian network that captures both temporal and contemporaneous causal relationships. The CDBN model was constructed using a panel dataset of listed manufacturing companies in Korea over a 14-year period (2009–2022). By visualizing the interactions between financial factors, the model makes it easy to understand their dynamic and instantaneous relationships, offering valuable insights into corporate finance. Key findings in the model include evidence of autocorrelation in all dynamic variables, a lagged feedback loop between the intangible assets ratio and firm value, the widespread impact of the COVID-19 pandemic on the financial sector, and important causal relationships involving key financial metrics such as the fixed assets ratio, firm value, and return on assets ratio.",
+   "concepts": [
+    "Econometrics",
+    "Bayesian network",
+    "Causal model",
+    "Value (mathematics)",
+    "Bayesian probability"
+   ],
+   "domain": "finance / management / machine learning",
+   "papers": 52,
+   "edges": 51,
+   "backward": 33,
+   "forward": 10,
+   "related": 8,
+   "needsReview": 33,
+   "abstractCoverage": 63,
+   "backwardCandidates": 62,
+   "crossrefRefs": 53,
+   "elapsed": 1.3,
+   "generatedAt": "2026-10-23",
+   "topCited": [
+    {
+     "title": "A General Equilibrium Approach To Monetary Theory",
+     "year": 1969,
+     "cites": 5340
+    },
+    {
+     "title": "The Econometrics of Financial Markets",
+     "year": 1997,
+     "cites": 5007
+    },
+    {
+     "title": "Bayesian Network Classifiers",
+     "year": 1997,
+     "cites": 4746
+    }
+   ],
+   "files": [
+    "refs.csv",
+    "refs.ris",
+    "refs.bib",
+    "summary.md"
+   ]
+  },
+  {
+   "slug": "10-3390-jrfm19040253",
+   "doi": "10.3390/jrfm19040253",
+   "title": "Stock Repurchase Purposes, Firm Valuation, and Market Reactions: Evidence from Korea",
+   "year": 2026,
+   "journal": "Journal of risk and financial management",
+   "authors": [
+    "Young Woo Ko"
+   ],
+   "abstract": "This study examines stock market reactions to share repurchase announcements by firms listed on the Korean Stock Exchange from 2015 to 2024. Unlike the U.S. market, where share repurchases are generally viewed as a shareholder-friendly signal of strong firm performance, Korea’s institutional environment permits relatively discretionary treasury stock transactions, potentially leading to heterogeneous investor responses. Using an event-study methodology, we analyze short-term abnormal returns around repurchase announcements, differences across stated repurchase motives, and the moderating role of firm valuation. We document significantly positive short-term abnormal returns following repurchase announcements, consistent with signaling-based explanations. However, these positive market reactions are driven exclusively by repurchases explicitly intended to enhance shareholder value. Furthermore, the market response to shareholder-value-oriented repurchases is significantly stronger among firms with lower valuation levels, suggesting that undervaluation enhances the credibility of repurchase signals. Overall, our findings indicate that repurchase announcements are not interpreted uniformly in the Korean market. Instead, investors condition their reactions on both managerial intent and firm-specific valuation contexts. By jointly considering repurchase motives and valuation effects, this study contributes to the literature by showing that the informational content of repurchase announcements is contingent rather than universal, and that signaling effects materialize primarily when managerial actions align with credible undervaluation signals.",
+   "concepts": [
+    "Business",
+    "Share repurchase",
+    "Monetary economics",
+    "Credibility",
+    "Shareholder"
+   ],
+   "domain": "finance / management / machine learning",
+   "papers": 16,
+   "edges": 15,
+   "backward": 15,
+   "forward": 0,
+   "related": 0,
+   "needsReview": 12,
+   "abstractCoverage": 69,
+   "backwardCandidates": 30,
+   "crossrefRefs": 20,
+   "elapsed": 4.9,
+   "generatedAt": "2026-10-20",
+   "topCited": [
+    {
+     "title": "Market underreaction to open market share repurchases",
+     "year": 1995,
+     "cites": 1737
+    },
+    {
+     "title": "Common stock repurchases and market signalling",
+     "year": 1981,
+     "cites": 1034
+    },
+    {
+     "title": "Why Do Firms Repurchase Stock?",
+     "year": 2000,
+     "cites": 933
+    }
+   ],
+   "files": [
+    "refs.csv",
+    "refs.ris",
+    "refs.bib",
+    "summary.md"
+   ]
+  },
+  {
+   "slug": "10-1080-13504851-2019-1661951",
+   "doi": "10.1080/13504851.2019.1661951",
+   "title": "Economic policy uncertainty and firm value: the mediating role of intangible assets and R&D",
+   "year": 2019,
+   "journal": "Applied Economics Letters",
+   "authors": [
+    "Richard Borghesi",
+    "Kiyoung Chang"
+   ],
+   "abstract": "We explore the mechanisms by which intangible assets and R&D intensity mediate the relationship between global economic policy uncertainty and firm value. We find that firms in high intangible-intensity industries and those engaging in R&D suffer the most from restrictive governance policies when economic instability is high. However, when the economic environment is volatile, these same firms benefit the most from prior investments in corporate social responsibility. Results add nuance to prior literature exploring the CSR and corporate governance strictly during the Great Recession and also shed light on optimal governance and CSR policies in times of global economic policy uncertainty.",
+   "concepts": [
+    "Corporate governance",
+    "Recession",
+    "Value (mathematics)",
+    "Corporate social responsibility",
+    "Economic governance"
+   ],
+   "domain": "finance / management / machine learning",
+   "papers": 40,
+   "edges": 39,
+   "backward": 13,
+   "forward": 20,
+   "related": 6,
+   "needsReview": 22,
+   "abstractCoverage": 60,
+   "backwardCandidates": 28,
+   "crossrefRefs": 14,
+   "elapsed": 2.9,
+   "generatedAt": "2026-09-04",
+   "topCited": [
+    {
+     "title": "Measuring Economic Policy Uncertainty*",
+     "year": 2016,
+     "cites": 12290
+    },
+    {
+     "title": "Nuevos modelos de negocios en los mercados emergentes",
+     "year": 2011,
+     "cites": 1908
+    },
+    {
+     "title": "Socially responsible firms",
+     "year": 2016,
+     "cites": 1480
+    }
+   ],
+   "files": [
+    "refs.csv",
+    "refs.ris",
+    "refs.bib",
+    "summary.md"
+   ]
+  },
+  {
+   "slug": "10-1371-journal-pone-0340913",
+   "doi": "10.1371/journal.pone.0340913",
+   "title": "The impact of banking uncertainty on firm investment: A look into intangible assets",
+   "year": 2026,
+   "journal": "PLoS ONE",
+   "authors": [
+    "Japan Huynh",
+    "Thi Minh Hue Phan"
+   ],
+   "abstract": "This study examines the impact of banking uncertainty on intangible investments, in the context that there has been a growing body of literature addressing the ramifications of aggregate uncertainty on overall investment or physical investment. Based on data from 619 non-financial listed companies and 40 commercial banks in Vietnam between 2007 and 2022, we perform empirical regression analysis using the dynamic generalized method of moments (GMM) estimations since firms' investment behavior is significantly persistent. We make our investigations more relevant and comprehensive by considering banking uncertainty in Vietnam's bank-based market and delving into the underlying mechanisms through which banking uncertainty impacts corporate investments. Our findings reveal that firms tend to curtail their intangible asset investments in response to higher banking sector uncertainty, albeit the magnitude of the impact is economically weak. Differently, banking uncertainty substantially constrains investments in tangible fixed assets. We further provide evidence on financial conditions (captured by the cost of debt, financing constraints, and firms' bank debt) as a driving force underlying the relationship between banking uncertainty and tangible assets, but not intangible investments. Our results remain robust after considering alternative variables, accounting for potential structural disruptions arising from crises, and addressing potential endogeneity concerns.",
+   "concepts": [
+    "Endogeneity",
+    "Context (archaeology)",
+    "Business",
+    "Intangible asset",
+    "Investment (military)"
+   ],
+   "domain": "finance / management / machine learning",
+   "papers": 36,
+   "edges": 35,
+   "backward": 35,
+   "forward": 0,
+   "related": 0,
+   "needsReview": 24,
+   "abstractCoverage": 47,
+   "backwardCandidates": 70,
+   "crossrefRefs": 44,
+   "elapsed": 5.7,
+   "generatedAt": "2026-09-04",
+   "topCited": [
+    {
+     "title": "Corporate financing and investment decisions when firms have information that investors do not have",
+     "year": 1984,
+     "cites": 19343
+    },
+    {
+     "title": "Do Investment-Cash Flow Sensitivities Provide Useful Measures of Financing Constraints?",
+     "year": 1997,
+     "cites": 6877
+    },
+    {
+     "title": "The Impact of Uncertainty Shocks",
+     "year": 2009,
+     "cites": 5902
+    }
+   ],
+   "files": [
+    "refs.csv",
+    "refs.ris",
+    "refs.bib",
+    "summary.md"
+   ]
+  },
+  {
+   "slug": "10-1016-j-bir-2024-04-014",
+   "doi": "10.1016/j.bir.2024.04.014",
+   "title": "Uncertainty in banking and trade credit of firms",
+   "year": 2024,
+   "journal": "Borsa Istanbul Review",
+   "authors": [
+    "Japan Huynh"
+   ],
+   "abstract": "This paper uses data from commercial banks and nonfinancial listed firms in Vietnam from 2007 to 2022 to address the effect of banking uncertainty on firms’ trade credit. We find that trade credit increases with heightened uncertainty in the banking sector, which is more conspicuous in nonstate-owned firms and when the macro economy experiences shocks, such as those caused by the global financial crisis and the COVID-19 pandemic. We also determine that banking uncertainty is associated with lower bank debt in firms, indicating a substitution effect between bank credit and trade credit when uncertainty rises. A further mechanism test shows that the uncertainty effect on trade credit works through strategic and financing motives. Finally, we find that trade credit expansion may hurt corporate performance; this effect is amplified during periods of banking uncertainty.",
+   "concepts": [
+    "Trade credit",
+    "Bank credit",
+    "Trade finance",
+    "Business",
+    "Debt"
+   ],
+   "domain": "finance / management / machine learning",
+   "papers": 78,
+   "edges": 77,
+   "backward": 67,
+   "forward": 8,
+   "related": 2,
+   "needsReview": 55,
+   "abstractCoverage": 47,
+   "backwardCandidates": 167,
+   "crossrefRefs": 84,
+   "elapsed": 9.6,
+   "generatedAt": "2026-09-03",
+   "topCited": [
+    {
+     "title": "Another look at the instrumental variable estimation of error-components models",
+     "year": 1995,
+     "cites": 19954
+    },
+    {
+     "title": "Specification Tests in Econometrics",
+     "year": 1978,
+     "cites": 18757
+    },
+    {
+     "title": "Measuring Economic Policy Uncertainty*",
+     "year": 2016,
+     "cites": 12290
+    }
+   ],
+   "files": [
+    "refs.csv",
+    "refs.ris",
+    "refs.bib",
+    "summary.md"
+   ]
+  },
+  {
+   "slug": "10-1016-j-econmod-2022-105852",
+   "doi": "10.1016/j.econmod.2022.105852",
+   "title": "Bank liquidity creation under micro uncertainty: The conditioning role of income structure",
+   "year": 2022,
+   "journal": "Economic Modelling",
+   "authors": [
+    "Van Dan Dang"
+   ],
+   "abstract": "",
+   "concepts": [
+    "Market liquidity",
+    "Diversification (marketing strategy)",
+    "Economics",
+    "Monetary economics",
+    "Proxy (statistics)"
+   ],
+   "domain": "general research",
+   "papers": 75,
+   "edges": 74,
+   "backward": 49,
+   "forward": 20,
+   "related": 5,
+   "needsReview": 54,
+   "abstractCoverage": 41,
+   "backwardCandidates": 135,
+   "crossrefRefs": 69,
+   "elapsed": 8.1,
+   "generatedAt": "2026-08-31",
+   "topCited": [
+    {
+     "title": "Some Tests of Specification for Panel Data: Monte Carlo Evidence and an Application to Employment Equations",
+     "year": 1991,
+     "cites": 33305
+    },
+    {
+     "title": "Another look at the instrumental variable estimation of error-components models",
+     "year": 1995,
+     "cites": 19932
+    },
+    {
+     "title": "Measuring Economic Policy Uncertainty*",
+     "year": 2016,
+     "cites": 12290
+    }
+   ],
+   "files": [
+    "refs.csv",
+    "refs.ris",
+    "refs.bib",
+    "summary.md"
+   ]
+  },
+  {
+   "slug": "10-1002-csr-1998",
+   "doi": "10.1002/csr.1998",
+   "title": "Confession or justification: The effects of environmental disclosure on corporate green innovation in China",
+   "year": 2020,
+   "journal": "Corporate Social Responsibility and Environmental Management",
+   "authors": [
+    "Xiaojian Xiang",
+    "Chuanjiang Liu",
+    "Mian Yang",
+    "Xiaomeng Zhao"
+   ],
+   "abstract": "Abstract As one type of voluntary environmental regulations, environmental disclosure plays an important role in promoting sustainable development of enterprises by enhancing their environmental awareness. Based on the social responsibility and annual reports published by heavily polluting listed companies in China between 2007 and 2016, this article investigates their environmental disclosure and assesses the impact on their green innovation activities as well as its influence mechanisms. Text analysis is used to measure the environmental disclosure by way of three dimensions including environmental investment and management, environmental supervision and agency certification, and environmental performance and governance. The results of the Poisson regression model for panel data show that environmental disclosure has significantly encouraged green innovations carried out by heavily polluting listed companies in China during the past decade and this result is consistent with a variety of robustness checks. Besides, the mediation effect test demonstrates that environmental disclosure stimulated green innovations of heavily polluting listed companies by expanding their financing channels, promoting their product sales, and raising media attention.",
+   "concepts": [
+    "Business",
+    "China",
+    "Accounting",
+    "Sustainability reporting",
+    "Panel data"
+   ],
+   "domain": "finance / management / machine learning",
+   "papers": 70,
+   "edges": 69,
+   "backward": 46,
+   "forward": 20,
+   "related": 3,
+   "needsReview": 54,
+   "abstractCoverage": 54,
+   "backwardCandidates": 113,
+   "crossrefRefs": 58,
+   "elapsed": 6.6,
+   "generatedAt": "2026-07-27",
+   "topCited": [
+    {
+     "title": "The moderator–mediator variable distinction in social psychological research: Conceptual, strategic, and statistical considerations.",
+     "year": 1986,
+     "cites": 70944
+    },
+    {
+     "title": "Introductory Econometrics: A Modern Approach",
+     "year": 1999,
+     "cites": 14649
+    },
+    {
+     "title": "Evolving to a New Dominant Logic for Marketing",
+     "year": 2003,
+     "cites": 14449
+    }
+   ],
+   "files": [
+    "refs.csv",
+    "refs.ris",
+    "refs.bib",
+    "summary.md"
+   ]
+  },
+  {
+   "slug": "10-1007-s10668-023-03575-5",
+   "doi": "10.1007/s10668-023-03575-5",
+   "title": "Investigation on how carbon markets and digital transformation affect green innovation: evidence from Chinese listed companies",
+   "year": 2023,
+   "journal": "Environment Development and Sustainability",
+   "authors": [
+    "Di Wang",
+    "Wei Dou"
+   ],
+   "abstract": "Abstract Carbon markets and the digital economy are gaining popularity continuously. Under this context, corporate green innovation should be urgently guided, which is an important subject to be studied and solved with great urgency to achieve harmonious ecological and economic growth. In this study, the data of 836 Chinese A-share listed companies from 2007 to 2020 are selected, carbon market and digital transformation are integrated into a unified analysis framework, and the green innovation effect and mechanism of the two and their interaction terms are investigated, not showing consistency with the previous studies about the effect of carbon market or digital transformation on green innovation. The present study suggests that (i) both carbon market policy and digitalization level serve as vital factors in boosting green innovation among high-carbon companies, whereas the synthetic effect of carbon market policy and digital transformation inhibits corporate green innovation behavior. (ii) The influences exerted by carbon market policy, digital transformation, and the synthetic effect on green innovation are dependent on property rights, size, and industry of high-carbon companies. (iii) As revealed by the analysis of mediating effects, financing constraints are the main mechanism of action that leads to a negative correlation between the synthetic effect of the carbon market and digital transformation and green innovation. Besides, R&D investment and environmental information disclosure only affect the action mechanism about digital transformation and carbon market policy, whereas they do not affect the synthetic effect of carbon market and digital transformation. Therefore, to promote green innovation and green transformation of high carbon companies, the government needs to flexibly use market-based environmental regulation tools (e.g., carbon market), strengthen the influence exerted by digital technology in improving innovation quality, and flexibly formulate relevant policies in accordance with the heterogeneity of different objects.",
+   "concepts": [
+    "Digital transformation",
+    "Business",
+    "Context (archaeology)",
+    "Green innovation",
+    "Industrial organization"
+   ],
+   "domain": "finance / management / machine learning",
+   "papers": 79,
+   "edges": 78,
+   "backward": 54,
+   "forward": 20,
+   "related": 4,
+   "needsReview": 62,
+   "abstractCoverage": 48,
+   "backwardCandidates": 139,
+   "crossrefRefs": 73,
+   "elapsed": 8.2,
+   "generatedAt": "2026-07-27",
+   "topCited": [
+    {
+     "title": "Earnings Losses of Displaced Workers",
+     "year": 1992,
+     "cites": 2972
+    },
+    {
+     "title": "Digital Entrepreneurship: Toward a Digital Technology Perspective of Entrepreneurship",
+     "year": 2016,
+     "cites": 2613
+    },
+    {
+     "title": "Organizing for Innovation in the Digitized World",
+     "year": 2012,
+     "cites": 2391
+    }
+   ],
+   "files": [
+    "refs.csv",
+    "refs.ris",
+    "refs.bib",
+    "summary.md"
+   ]
+  },
+  {
+   "slug": "10-1016-j-eneco-2023-107135",
+   "doi": "10.1016/j.eneco.2023.107135",
+   "title": "Effect of digital transformation on enterprises' green innovation: Empirical evidence from listed companies in China",
+   "year": 2023,
+   "journal": "Energy Economics",
+   "authors": [
+    "Maogang Tang",
+    "Yinlin Liu",
+    "Fengxia Hu",
+    "Baijun Wu"
+   ],
+   "abstract": "",
+   "concepts": [
+    "China",
+    "Business",
+    "Green innovation",
+    "Digital transformation",
+    "Transformation (genetics)"
+   ],
+   "domain": "general research",
+   "papers": 73,
+   "edges": 72,
+   "backward": 45,
+   "forward": 20,
+   "related": 7,
+   "needsReview": 55,
+   "abstractCoverage": 48,
+   "backwardCandidates": 113,
+   "crossrefRefs": 65,
+   "elapsed": 6.7,
+   "generatedAt": "2026-07-27",
+   "topCited": [
+    {
+     "title": "Digital Innovation Management: Reinventing Innovation Management Research in a Digital World",
+     "year": 2017,
+     "cites": 2786
+    },
+    {
+     "title": "Technology Adoption in the Presence of Network Externalities",
+     "year": 1986,
+     "cites": 2659
+    },
+    {
+     "title": "Digital Economics",
+     "year": 2019,
+     "cites": 2390
+    }
+   ],
+   "files": [
+    "refs.csv",
+    "refs.ris",
+    "refs.bib",
+    "summary.md"
+   ]
+  },
+  {
+   "slug": "10-1177-03063070241308100",
+   "doi": "10.1177/03063070241308100",
+   "title": "Digital transformation and green innovation: The mediating role of green management disclosure and the moderating role of institutional pressure",
+   "year": 2025,
+   "journal": "Journal of General Management",
+   "authors": [
+    "Fangwei Jiang"
+   ],
+   "abstract": "As environmental problems continue to intensify, firms can consider using green innovation as an effective strategy to mitigate these problems. Although the effect of digital transformation on companies has been comprehensively evaluated, whether it is a positive factor for green innovation remains unclear. Thus, this study examined the relationship between digital transformation and green innovation. Panel data on 3021 firms from 75 industries in China’s A-share stock market for the period 2011–2021 were analyzed, and a fixed effects model was employed. Results showed that digital transformation positively influences green innovation; green management disclosure is one of the transmission channels for this influence. Additionally, industry-level institutional pressure negatively moderates the relationship between digital transformation and green innovation. This result is attributable to the duplication of influence paths with digitalization and unquestioning mimetic behavior to peer. The study expands the universality of the research results and further investigates the transmission mechanism between digital transformation and green innovation. Moreover, it suggests that firms should accelerate their digital transformation and utilize it to improve their disclosure of green management information. Firms can also employ other green practices to obtain legitimacy in the industry and reduce the negative impact of institutional pressure.",
+   "concepts": [
+    "Business",
+    "Panel data",
+    "Digital transformation",
+    "Industrial organization",
+    "China"
+   ],
+   "domain": "general research",
+   "papers": 95,
+   "edges": 94,
+   "backward": 79,
+   "forward": 11,
+   "related": 4,
+   "needsReview": 66,
+   "abstractCoverage": 58,
+   "backwardCandidates": 205,
+   "crossrefRefs": 107,
+   "elapsed": 11.2,
+   "generatedAt": "2026-07-27",
+   "topCited": [
+    {
+     "title": "The Iron Cage Revisited: Institutional Isomorphism and Collective Rationality in Organizational Fields",
+     "year": 1983,
+     "cites": 36500
+    },
+    {
+     "title": "Dynamic capabilities and strategic management",
+     "year": 1997,
+     "cites": 31557
+    },
+    {
+     "title": "Digital Business Strategy: Toward a Next Generation of Insights",
+     "year": 2013,
+     "cites": 4022
+    }
+   ],
+   "files": [
+    "refs.csv",
+    "refs.ris",
+    "refs.bib",
+    "summary.md"
+   ]
+  },
+  {
+   "slug": "10-1186-s43093-025-00511-z",
+   "doi": "10.1186/s43093-025-00511-z",
+   "title": "Digital transformation and its multidimensional impact on sustainable business performance: evidence from a meta-analytic review",
+   "year": 2025,
+   "journal": "Future Business Journal",
+   "authors": [
+    "Dedrix Stephenson Bindeeba",
+    "Eddy K. Tukamushaba",
+    "Rennie Bakashaba"
+   ],
+   "abstract": "Abstract Digital transformation has become a strategic driver of sustainable business performance, offering new pathways for firms to achieve economic, environmental, and social goals. This study conducts a meta-analysis to synthesize empirical evidence on the relationship between digital transformation and sustainable business performance. A total of 153 effect sizes from 44 empirical studies, comprising 17,284 observations, were analyzed using Comprehensive Meta-Analysis software and a random-effects model. The findings reveal a significant positive relationship, with the strongest impact observed on economic performance, followed by environmental and social performance. Among the technologies examined, smart factories, big data analytics, and the Internet of Things emerged as the most influential enablers of sustainability outcomes. Subgroup analyses showed higher impacts in lower-middle-income countries and specific sectors such as telecommunications and manufacturing. Methodologically, studies using structural equation modeling reported stronger effect sizes than those using regression analyses. These results demonstrate the multidimensional benefits of digital transformation, particularly in improving productivity, reducing environmental impact, and fostering stakeholder engagement. The study contributes a comprehensive evidence base for guiding digital adoption strategies and policymaking in support of sustainable development.",
+   "concepts": [
+    "Transformation (genetics)",
+    "Digital transformation",
+    "Computer science",
+    "Business",
+    "Data science"
+   ],
+   "domain": "general research",
+   "papers": 77,
+   "edges": 76,
+   "backward": 52,
+   "forward": 20,
+   "related": 4,
+   "needsReview": 23,
+   "abstractCoverage": 92,
+   "backwardCandidates": 113,
+   "crossrefRefs": 62,
+   "elapsed": 8.7,
+   "generatedAt": "2026-07-24",
+   "topCited": [
+    {
+     "title": "Measuring inconsistency in meta-analyses",
+     "year": 2003,
+     "cites": 63305
+    },
+    {
+     "title": "Bias in meta-analysis detected by a simple, graphical test",
+     "year": 1997,
+     "cites": 56861
+    },
+    {
+     "title": "Firm Resources and Sustained Competitive Advantage",
+     "year": 1991,
+     "cites": 46096
+    }
+   ],
+   "files": [
+    "refs.csv",
+    "refs.ris",
+    "refs.bib",
+    "summary.md"
+   ]
+  },
+  {
+   "slug": "10-1080-23322039-2026-2670059",
+   "doi": "10.1080/23322039.2026.2670059",
+   "title": "The digital economy and corporate financialization: evidence from China",
+   "year": 2026,
+   "journal": "Cogent Economics & Finance",
+   "authors": [
+    "Qi Yang",
+    "Hongxia Feng",
+    "Mutian Li"
+   ],
+   "abstract": "The digital economy exerts a multifaceted influence on corporate operations and strategic decision-making; however, its impact on corporate financialization remains unclear. Using data from Chinese A-share-listed firms spanning 2013 to 2023, this study examines the restraining effect of the digital economy on corporate financialization. The empirical findings reveal that the digital economy significantly curbs corporate financialization, primarily by alleviating financing constraints and boosting research and development expenditures. Further analysis shows that this restraining effect is more pronounced in cities characterized by deep integration between the digital and real economies and by advanced digital infrastructure, as well as among firms with strong political connections and firms that share a large number of common institutional investors. Based on these findings, we also conduct a heterogeneity analysis and offer targeted policy recommendations.",
+   "concepts": [
+    "China",
+    "Digital economy",
+    "Business",
+    "Economics",
+    "Economy"
+   ],
+   "domain": "finance / management / machine learning",
+   "papers": 123,
+   "edges": 122,
+   "backward": 122,
+   "forward": 0,
+   "related": 0,
+   "needsReview": 95,
+   "abstractCoverage": 48,
+   "backwardCandidates": 293,
+   "crossrefRefs": 151,
+   "elapsed": 17.1,
+   "generatedAt": "2026-07-08",
+   "topCited": [
+    {
+     "title": "Theory of the firm: Managerial behavior, agency costs and ownership structure",
+     "year": 1976,
+     "cites": 70845
+    },
+    {
+     "title": "A resource‐based view of the firm",
+     "year": 1984,
+     "cites": 24855
+    },
+    {
+     "title": "Unobservable Selection and Coefficient Stability: Theory and Evidence",
+     "year": 2016,
+     "cites": 5032
+    }
+   ],
+   "files": [
+    "refs.csv",
+    "refs.ris",
+    "refs.bib",
+    "summary.md"
+   ]
+  },
+  {
+   "slug": "10-2139-ssrn-4987085",
+   "doi": "10.2139/ssrn.4987085",
+   "title": "Information in Disclosing Emerging Technologies: Evidence from AI Disclosure",
+   "year": 2024,
+   "journal": "SSRN Electronic Journal",
+   "authors": [
+    "Yang Cao",
+    "Miao Liu",
+    "Jiaping Qiu",
+    "Ran Zhao"
+   ],
+   "abstract": "",
+   "concepts": [
+    "Internet privacy",
+    "Business",
+    "Computer science",
+    "Data science"
+   ],
+   "domain": "general research",
+   "papers": 22,
+   "edges": 21,
+   "backward": 17,
+   "forward": 1,
+   "related": 3,
+   "needsReview": 13,
+   "abstractCoverage": 64,
+   "backwardCandidates": 31,
+   "crossrefRefs": 19,
+   "elapsed": 4.3,
+   "generatedAt": "2026-07-08",
+   "topCited": [
+    {
+     "title": "Common risk factors in the returns on stocks and bonds",
+     "year": 1993,
+     "cites": 27724
+    },
+    {
+     "title": "Stock Return Characteristics, Skew Laws, and the Differential Pricing of Individual Equity Options",
+     "year": 2003,
+     "cites": 1474
+    },
+    {
+     "title": "Firm-Level Political Risk: Measurement and Effects*",
+     "year": 2019,
+     "cites": 1402
+    }
+   ],
+   "files": [
+    "refs.csv",
+    "refs.ris",
+    "refs.bib",
+    "summary.md"
+   ]
+  },
+  {
+   "slug": "10-1016-j-iedeen-2025-100291",
+   "doi": "10.1016/j.iedeen.2025.100291",
+   "title": "AI and ML patent intensity and firm performance: A machine learning-based lagged analysis",
+   "year": 2025,
+   "journal": "European Research on Management and Business Economics",
+   "authors": [
+    "Melih Sefa Yavuz",
+    "Hilal Çalik"
+   ],
+   "abstract": "This study investigates the long-term impact of artificial intelligence (AI) and machine learning (ML) patent intensity on firms’ performance, focusing on innovation-driven competitive advantage. Using a panel of 20 technology-intensive firms from 2013 to 2023, this study employs eXtreme gradient boosting (XGBoost) and random forest algorithms to capture nonlinear relationships between AI and ML patent intensity and key financial indicators, including return on assets (ROA), operating margin, and net profit margin. The results indicate that AI and ML patents significantly enhance ROA and operating margins, particularly with a five-year lag, highlighting the delayed but positive influence of such innovations. However, the effect on net profit margin remains limited. These findings underscore the strategic value of AI and ML innovation in driving sustainable firm performance while also emphasizing the importance of long-term planning and complementary investments for maximizing financial returns.",
+   "concepts": [
+    "Intensity (physics)",
+    "Artificial intelligence",
+    "Computer science",
+    "Econometrics",
+    "Machine learning"
+   ],
+   "domain": "finance / management / machine learning",
+   "papers": 78,
+   "edges": 77,
+   "backward": 61,
+   "forward": 6,
+   "related": 10,
+   "needsReview": 29,
+   "abstractCoverage": 76,
+   "backwardCandidates": 126,
+   "crossrefRefs": 81,
+   "elapsed": 7.2,
+   "generatedAt": "2026-07-06",
+   "topCited": [
+    {
+     "title": "Dynamic capabilities and strategic management",
+     "year": 1997,
+     "cites": 31557
+    },
+    {
+     "title": "Explicating dynamic capabilities: the nature and microfoundations of (sustainable) enterprise performance",
+     "year": 2007,
+     "cites": 15059
+    },
+    {
+     "title": "Dynamic capabilities: what are they?",
+     "year": 2000,
+     "cites": 14470
+    }
+   ],
+   "files": [
+    "refs.csv",
+    "refs.ris",
+    "refs.bib",
+    "summary.md"
+   ]
+  }
+ ]
+}
