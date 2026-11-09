@@ -5,8 +5,7 @@ import { DOMAIN, REL, label } from '../utils/labels';
 import { firstSentences, fmtNum, shortAuthors } from '../utils/format';
 
 // Thẻ một bản đồ trích dẫn (một DOI gốc) + thẻ xem nhanh khi rê chuột
-export default function MapCard({ m }) {
-  const to = `/map/${m.slug}`;
+export default function MapCard({ m, to = `/map/${m.slug}` }) {
   return (
     <HoverPreview preview={() => <MapPreview m={m} to={to} />}>
       <Link to={to} className="group flex h-full flex-col rounded-2xl bg-white p-5 ring-1 ring-slate-200 transition hover:ring-brand/40">
