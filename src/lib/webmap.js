@@ -23,6 +23,8 @@ export function slimNode(n) {
     },
     x: n.x ?? 0,
     y: n.y ?? 0,
+    // Mã OpenAlex rút gọn (W123…) của các tài liệu mà bài này trích dẫn; undefined = chưa có dữ liệu
+    refs: n.referenced_works,
   };
 }
 

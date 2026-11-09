@@ -1,8 +1,12 @@
 """
 Chuyển kết quả của Citenet (thư mục outputs/Citenet) thành dữ liệu cho web.
 
-Cách chạy (từ thư mục gốc của citenet-web):
-    python scripts/build_data.py "<đường dẫn tới outputs/Citenet>"
+Cách chạy (từ thư mục gốc của web):
+    python scripts/build_data.py "<đường dẫn tới outputs/Citenet>" [--cache "<đường dẫn work/Citenet/cache>"]
+
+Nếu không ghi --cache, script tự tìm work/Citenet/cache nằm cạnh outputs/ (cấu trúc mặc định của Citenet).
+Cache dùng để lấy danh sách tài liệu tham khảo của từng bài (trích dẫn chéo, điểm "nên đọc trước").
+Bản đồ nào không đủ dữ liệu trong cache sẽ để trình duyệt tự lấy bù từ OpenAlex khi mở.
 
 Ví dụ trên Windows:
     python scripts/build_data.py "C:\\Users\\admin\\Documents\\Codex\\2026-07-07\\n-u-m-c-ti-u\\outputs\\Citenet"
@@ -42,6 +46,23 @@ def paper_key(node):
     return (node.get("doi") or node.get("openalex_id") or node["id"]).lower()
 
 
+def load_refs_from_cache(cache_dir):
+    """Đọc mọi phản hồi OpenAlex trong cache của Citenet → {W123: [W…, …]}"""
+    refs = {}
+    if not cache_dir or not cache_dir.is_dir():
+        return refs
+    for f in cache_dir.glob("*.json"):
+        try:
+            data = json.loads(f.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            continue
+        works = data.get("results") if isinstance(data, dict) and isinstance(data.get("results"), list) else [data]
+        for w in works:
+            if isinstance(w, dict) and str(w.get("id", "")).startswith("https://openalex.org/W") and "referenced_works" in w:
+                refs[w["id"].rsplit("/", 1)[-1]] = [r.rsplit("/", 1)[-1] for r in w.get("referenced_works") or []]
+    return refs
+
+
 def slim_node(n):
     c = n.get("classification") or {}
     return {
@@ -72,9 +93,13 @@ def slim_node(n):
 
 
 def main():
-    if len(sys.argv) < 2:
+    args = sys.argv[1:]
+    if not args or args[0].startswith("-"):
         sys.exit(__doc__)
-    src = Path(sys.argv[1]).expanduser()
+    src = Path(args[0]).expanduser()
+    cache_dir = Path(args[args.index("--cache") + 1]).expanduser() if "--cache" in args else src.parent.parent / "work" / "Citenet" / "cache"
+    all_refs = load_refs_from_cache(cache_dir)
+    print(f"Cache: {cache_dir} ({len(all_refs)} bài có danh sách tài liệu tham khảo)" if all_refs else "Không dùng cache (trình duyệt sẽ tự lấy trích dẫn chéo)")
     folders = sorted(p for p in src.iterdir() if (p / "graph.json").is_file())
     if not folders:
         sys.exit(f"Không thấy thư mục kết quả nào có graph.json trong: {src}")
@@ -99,6 +124,12 @@ def main():
         slug = folder.name
         g = json.loads((folder / "graph.json").read_text(encoding="utf-8"))
         nodes = [slim_node(n) for n in g["nodes"]]
+        # Gắn refs nếu cache có đủ cho ít nhất 90% số bài; nếu không, để trình duyệt tự lấy bù
+        found = [all_refs.get(n["id"].rsplit("/", 1)[-1]) for n in nodes]
+        has_refs = nodes and sum(r is not None for r in found) / len(nodes) >= 0.9
+        if has_refs:
+            for n, r in zip(nodes, found):
+                n["refs"] = r or []
         seed = next((n for n in nodes if n["rel"] == "seed"), nodes[0])
         s = g.get("summary", {})
 
@@ -130,6 +161,7 @@ def main():
             "elapsed": s.get("elapsed_seconds"), "generatedAt": (s.get("generated_at") or "")[:10],
             "topCited": [{"title": n["title"], "year": n["year"], "cites": n["cites"]} for n in top],
             "files": files,
+            "hasRefs": bool(has_refs),
         })
 
         for n in nodes:

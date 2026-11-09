@@ -150,6 +150,8 @@ export function paperFromOpenAlex(work, nodeType = 'related') {
     concepts: concepts.slice(0, 5).map((c) => cleanText(c.display_name || '')).filter(Boolean),
     landing_page_url: loc.landing_page_url || '',
     classification: classifyPaper(title, abstract, concepts, journal),
+    // Danh sách tài liệu tham khảo của chính bài này (để vẽ trích dẫn chéo trong bản đồ); bản Python không lưu trường này
+    referenced_works: (work.referenced_works || []).map((r) => r.split('/').pop()),
   };
 }
 
@@ -245,6 +247,7 @@ export function mergePapers(all) {
     if (ex.authors.length < p.authors.length) ex.authors = p.authors;
     ex.citation_count = Math.max(ex.citation_count, p.citation_count);
     if (ex.classification.confidence < p.classification.confidence) ex.classification = p.classification;
+    if (!ex.referenced_works?.length && p.referenced_works?.length) ex.referenced_works = p.referenced_works;
   }
   return [...map.values()];
 }

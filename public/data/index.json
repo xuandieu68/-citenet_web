@@ -63,7 +63,8 @@
     "refs.ris",
     "refs.bib",
     "summary.md"
-   ]
+   ],
+   "hasRefs": false
   },
   {
    "slug": "10-1111-j-1540-6261-1991-tb03753-x",
@@ -117,7 +118,8 @@
     "refs.ris",
     "refs.bib",
     "summary.md"
-   ]
+   ],
+   "hasRefs": false
   },
   {
    "slug": "10-3390-systems14010111",
@@ -171,7 +173,8 @@
     "refs.ris",
     "refs.bib",
     "summary.md"
-   ]
+   ],
+   "hasRefs": false
   },
   {
    "slug": "10-1016-j-bir-2024-04-014",
@@ -224,7 +227,8 @@
     "refs.ris",
     "refs.bib",
     "summary.md"
-   ]
+   ],
+   "hasRefs": false
   },
   {
    "slug": "10-1177-03063070241308100",
@@ -277,7 +281,8 @@
     "refs.ris",
     "refs.bib",
     "summary.md"
-   ]
+   ],
+   "hasRefs": false
   }
  ]
 }
