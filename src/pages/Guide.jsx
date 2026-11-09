@@ -74,12 +74,22 @@ export default function Guide() {
       </section>
 
       <section className={card}>
-        <h2 className="mb-4 text-lg font-extrabold">Thêm một bản đồ mới</h2>
+        <h2 className="mb-4 text-lg font-extrabold">Dựng bản đồ cho DOI của bạn</h2>
         <ol className="list-decimal space-y-2 pl-5 text-sm text-slate-700">
-          <li>Chạy Citenet trên máy với DOI mới, ví dụ <code className="rounded bg-slate-100 px-1">.\run_citenet.ps1 "10.1016/j.bir.2024.04.014"</code>.</li>
-          <li>Trong thư mục web, chạy <code className="rounded bg-slate-100 px-1">python scripts/build_data.py "&lt;đường dẫn outputs/Citenet&gt;"</code>.</li>
-          <li>Commit và push lên GitHub. Web tự cập nhật sau khoảng 30 giây.</li>
+          <li>Vào <strong>Phân tích DOI</strong>, dán DOI (hoặc link doi.org) rồi bấm <strong>Dựng bản đồ</strong>.</li>
+          <li>Trình duyệt tự lấy dữ liệu, thường mất 10–60 giây tùy số tài liệu tham khảo. Có thể bấm Hủy bất cứ lúc nào.</li>
+          <li>Kết quả được lưu vào <strong>Bản đồ của tôi</strong> trên trình duyệt này. Dùng nút <strong>Sao lưu</strong> để chuyển sang máy khác.</li>
         </ol>
+        <h3 className="mb-2 mt-5 font-bold text-ink">API key OpenAlex</h3>
+        <p className="text-sm text-slate-700">
+          Từ tháng 2/2026, OpenAlex yêu cầu API key (miễn phí) để có hạn mức truy cập hằng ngày đủ dùng. Không có key, web vẫn chạy nhưng có thể
+          báo hết hạn mức sau vài lần phân tích. Tạo tài khoản tại openalex.org, lấy key trong phần cài đặt tài khoản rồi dán vào ô API key ở trang
+          Phân tích DOI. Key chỉ lưu trong trình duyệt của bạn và chỉ được gửi tới api.openalex.org.
+        </p>
+        <h3 className="mb-2 mt-5 font-bold text-ink">Quyền riêng tư</h3>
+        <p className="text-sm text-slate-700">
+          Web không có máy chủ riêng. DOI bạn nhập, kết quả và API key không được gửi tới chủ web. Chỉ những bản đồ trong Bộ sưu tập (do chủ web chọn) là công khai.
+        </p>
       </section>
 
       <section className={card}>

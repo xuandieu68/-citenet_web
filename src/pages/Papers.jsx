@@ -46,7 +46,7 @@ export default function Papers() {
     <div>
       <h1 className="text-3xl font-extrabold text-ink">Tài liệu</h1>
       <p className="mt-2 max-w-3xl text-slate-600">
-        Toàn bộ {data.length.toLocaleString('vi-VN')} tài liệu từ mọi bản đồ, đã gộp trùng theo DOI.
+        Toàn bộ {data.length.toLocaleString('vi-VN')} tài liệu trong các bản đồ của Bộ sưu tập, đã gộp trùng theo DOI.
         Tài liệu xuất hiện ở nhiều bản đồ thường là nền tảng của chủ đề.
       </p>
       <div className="my-6 flex flex-col gap-3 lg:flex-row lg:items-center">

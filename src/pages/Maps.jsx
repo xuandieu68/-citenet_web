@@ -1,4 +1,4 @@
-import { useSearchParams } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import { useIndex } from '../hooks/useData';
 import MapCard from '../components/MapCard';
 import { Empty, Loading, SearchInput, Select } from '../components/ui';
@@ -33,8 +33,11 @@ export default function Maps() {
 
   return (
     <div>
-      <h1 className="text-3xl font-extrabold text-ink">Bản đồ trích dẫn</h1>
-      <p className="mt-2 max-w-3xl text-slate-600">Mỗi bản đồ được dựng từ một DOI gốc. Rê chuột lên thẻ để xem nhanh, bấm để mở biểu đồ.</p>
+      <h1 className="text-3xl font-extrabold text-ink">{data.title}</h1>
+      <p className="mt-2 max-w-3xl text-slate-600">
+        {data.description} Mỗi bản đồ được dựng từ một DOI gốc. Rê chuột lên thẻ để xem nhanh, bấm để mở biểu đồ.{' '}
+        <Link to="/analyze" className="font-semibold text-brand hover:underline">Dựng bản đồ cho DOI của bạn →</Link>
+      </p>
       <div className="my-6 flex flex-col gap-3 md:flex-row">
         <SearchInput value={q} onChange={(v) => set('q', v)} placeholder="Tìm theo tên bài, tác giả, tạp chí, DOI…" className="flex-1" />
         <Select value={domain} onChange={(v) => set('domain', v)} label="Lĩnh vực">

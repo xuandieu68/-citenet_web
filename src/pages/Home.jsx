@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useIndex, usePapers } from '../hooks/useData';
+import { useMine } from '../hooks/useMine';
 import MapCard from '../components/MapCard';
 import PaperCard from '../components/PaperCard';
-import { Loading, Section, StatTile } from '../components/ui';
-import { fmtNum } from '../utils/format';
+import { Loading, Section } from '../components/ui';
 import { REL } from '../utils/labels';
 
 const STEPS = [
@@ -17,11 +17,11 @@ const STEPS = [
 export default function Home() {
   const { data, loading } = useIndex();
   const { data: papers } = usePapers();
-  const [q, setQ] = useState('');
+  const mine = useMine();
+  const [doi, setDoi] = useState('');
   const navigate = useNavigate();
   if (loading) return <Loading />;
-  const t = data.totals;
-  const shared = (papers ?? []).filter((p) => p.maps.length > 1).slice(0, 5);
+  const top = [...(papers ?? [])].sort((a, b) => b.cites - a.cites).slice(0, 5);
 
   return (
     <div className="space-y-14">
@@ -35,38 +35,38 @@ export default function Home() {
             Citenet dựng mạng trích dẫn quanh một bài báo: bài đó trích dẫn ai, ai trích dẫn lại nó, và những bài liên quan.
             Bạn lọc, đọc nhanh và đưa thẳng vào Zotero hoặc Overleaf.
           </p>
-          <form onSubmit={(e) => { e.preventDefault(); navigate(`/papers?q=${encodeURIComponent(q)}`); }} className="mt-6 flex max-w-xl rounded-full bg-white p-1.5 shadow-lg">
-            <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Tìm trong tài liệu: uncertainty, green innovation…" aria-label="Tìm tài liệu"
+          <form onSubmit={(e) => { e.preventDefault(); if (doi.trim()) navigate(`/analyze?doi=${encodeURIComponent(doi.trim())}`); }} className="mt-6 flex max-w-xl rounded-full bg-white p-1.5 shadow-lg">
+            <input value={doi} onChange={(e) => setDoi(e.target.value)} placeholder="Dán DOI, ví dụ 10.1016/j.bir.2024.04.014" aria-label="DOI"
               className="min-w-0 flex-1 rounded-full px-4 text-ink outline-none" />
-            <button className="rounded-full bg-brand px-5 py-2.5 font-bold hover:bg-blue-700">Tìm</button>
+            <button className="whitespace-nowrap rounded-full bg-brand px-5 py-2.5 font-bold hover:bg-blue-700">Dựng bản đồ</button>
           </form>
+          <p className="mt-3 text-sm text-blue-200">Miễn phí · chạy ngay trong trình duyệt · kết quả chỉ lưu trên máy bạn</p>
           <div className="mt-4 flex flex-wrap gap-3 text-sm">
-            <Link to="/maps" className="rounded-full bg-white/10 px-4 py-2 font-semibold hover:bg-white/20">Xem {t.maps} bản đồ →</Link>
+            <Link to="/maps" className="rounded-full bg-white/10 px-4 py-2 font-semibold hover:bg-white/20">Xem bộ sưu tập mẫu →</Link>
             <Link to="/guide" className="rounded-full px-4 py-2 font-semibold text-blue-100 hover:bg-white/10">Cách đọc kết quả</Link>
           </div>
         </div>
       </section>
 
-      <section className="grid grid-cols-2 gap-3 md:grid-cols-4">
-        <StatTile value={t.maps} label="bản đồ trích dẫn (DOI gốc)" />
-        <StatTile value={fmtNum(t.uniquePapers)} label="tài liệu khác nhau" />
-        <StatTile value={fmtNum(t.edges)} label="liên kết trích dẫn" />
-        <StatTile value={t.sharedPapers} label="tài liệu xuất hiện ở ≥ 2 bản đồ" hint="Thường là các bài nền tảng của chủ đề" />
-      </section>
+      {mine.length > 0 && (
+        <Section title="Bản đồ của tôi" action={<Link to="/mine" className="text-sm font-bold text-brand hover:underline">Xem tất cả ({mine.length}) →</Link>}>
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {mine.slice(0, 4).map((m) => <MapCard key={m.slug} m={m} to={`/mine/${m.slug}`} />)}
+          </div>
+        </Section>
+      )}
 
-      <Section title="Bản đồ mới cập nhật" action={<Link to="/maps" className="text-sm font-bold text-brand hover:underline">Xem tất cả →</Link>}>
+      <Section title={data.title} action={<Link to="/maps" className="text-sm font-bold text-brand hover:underline">Xem bộ sưu tập →</Link>}>
+        <p className="-mt-2 mb-4 max-w-3xl text-sm text-slate-500">{data.description} Rê chuột lên thẻ để xem nhanh.</p>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {data.maps.slice(0, 8).map((m) => <MapCard key={m.slug} m={m} />)}
+          {data.maps.slice(0, 4).map((m) => <MapCard key={m.slug} m={m} />)}
         </div>
       </Section>
 
-      {shared.length > 0 && (
-        <Section title="Tài liệu nền tảng" action={<Link to="/papers?shared=1" className="text-sm font-bold text-brand hover:underline">Xem thêm →</Link>}>
-          <p className="-mt-2 mb-4 text-sm text-slate-500">Xuất hiện trong nhiều bản đồ nhất, nên đọc trước.</p>
+      {top.length > 0 && (
+        <Section title="Được trích dẫn nhiều nhất trong bộ sưu tập" action={<Link to="/papers?sort=cites" className="text-sm font-bold text-brand hover:underline">Xem tất cả tài liệu →</Link>}>
           <div className="grid grid-cols-1 gap-2">
-            {shared.map((p) => (
-              <PaperCard key={p.doi || p.title} p={p} extra={<p className="mt-1 text-[11px] font-bold text-brand">{p.maps.length} bản đồ</p>} />
-            ))}
+            {top.map((p) => <PaperCard key={p.doi || p.title} p={p} />)}
           </div>
         </Section>
       )}
