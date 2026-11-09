@@ -43,6 +43,30 @@ export default function Guide() {
       </section>
 
       <section className={card}>
+        <h2 className="mb-4 text-lg font-extrabold">Bản đồ thông minh và "Nên đọc trước"</h2>
+        <p className="text-sm text-slate-700">
+          Chế độ <strong>Theo thời gian</strong> đặt bài cũ bên trái, bài mới bên phải, bài được trích dẫn nhiều ở trên cao. Mũi tên nối hai bài khi bài này
+          trích dẫn bài kia (kể cả giữa các tài liệu tham khảo với nhau), nên bạn thấy được bài nào là "gốc rễ" của cả nhóm. Chế độ <strong>Theo nhóm</strong> giữ bố cục cũ của Citenet.
+        </p>
+        <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-slate-700">
+          <li><strong>Cùng được trích dẫn với bài gốc</strong>: trong số các bài trích dẫn bài gốc, bao nhiêu bài cũng trích dẫn bài này (co-citation). Cao nghĩa là người trong ngành hay đọc hai bài cùng nhau.</li>
+          <li><strong>Bài trong bản đồ trích dẫn</strong>: bao nhiêu bài khác trong bản đồ trích dẫn bài này. Cao nghĩa là bài nền tảng của chủ đề, không chỉ nổi tiếng chung chung.</li>
+          <li><strong>Tài liệu tham khảo chung với bài gốc</strong>: số tài liệu mà cả hai bài cùng trích dẫn (bibliographic coupling). Cao nghĩa là cùng nền tảng lý thuyết.</li>
+        </ul>
+        <p className="mt-3 text-sm text-slate-700">Điểm "Nên đọc trước" = 3 × cùng được trích dẫn + 2 × trích dẫn trong bản đồ + tài liệu tham khảo chung. 10 bài điểm cao nhất có vòng vàng trên biểu đồ.</p>
+      </section>
+
+      <section className={card}>
+        <h2 className="mb-4 text-lg font-extrabold">Sàng lọc và đưa vào Zotero</h2>
+        <ol className="list-decimal space-y-2 pl-5 text-sm text-slate-700">
+          <li>Với mỗi bài, bấm <strong>✓ Đưa vào</strong>, <strong>? Cân nhắc</strong> hoặc <strong>✕ Loại</strong> (trên danh sách hoặc trong bảng chi tiết). Có thể ghi chú lý do. Mọi thứ chỉ lưu trên trình duyệt của bạn.</li>
+          <li>Bấm <strong>Sao chép DOI cho Zotero</strong>: web chép DOI của các bài đã đưa vào, mỗi DOI một dòng.</li>
+          <li>Trong Zotero, bấm nút <strong>cây đũa thần</strong> (Add Item by Identifier), dán (Ctrl+V) rồi Enter. Zotero tự lấy đầy đủ thông tin (tập, số, trang…) cho từng bài.</li>
+          <li>Bài không có DOI: dùng nút RIS/BibTeX cạnh đó, rồi trong Zotero chọn File → Import.</li>
+        </ol>
+      </section>
+
+      <section className={card}>
         <h2 className="mb-4 text-lg font-extrabold">Ý nghĩa các con số</h2>
         <dl className="space-y-3">
           {METRICS.map(([k, v]) => (

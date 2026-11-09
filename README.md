@@ -29,6 +29,12 @@ Dán một DOI, trình duyệt sẽ dựng **bản đồ trích dẫn** quanh b�
 | Hướng dẫn | `#/guide` | Cách đọc biểu đồ, các con số, API key, quyền riêng tư, giới hạn |
 
 Mỗi bản đồ, dù là mẫu hay tự tạo, có:
+- **Bản đồ thông minh**, lấy ý tưởng từ Litmaps:
+  - Chế độ *Theo thời gian*: trục ngang là năm, trục dọc là lượt trích dẫn (thang log).
+  - **Mũi tên trích dẫn chéo** giữa chính các bài trong bản đồ, không chỉ nối về bài gốc.
+  - **Điểm "Nên đọc trước"** = 3 × co-citation với bài gốc + 2 × số bài trong bản đồ trích dẫn nó + bibliographic coupling. Xem `src/lib/insights.js`.
+- **Sàng lọc**: đánh dấu Đưa vào / Cân nhắc / Loại cho từng bài, kèm ghi chú, lưu theo từng bản đồ. Có thanh đếm số bài đã sàng lọc.
+- **Sao chép DOI cho Zotero**: chép DOI của các bài đã chọn, mỗi DOI một dòng, để dán một lần vào nút cây đũa thần (Add Item by Identifier). Zotero tự lấy đủ thông tin. Có thêm RIS/BibTeX của các bài đã chọn làm phương án dự phòng.
 - **Biểu đồ tương tác** giữ đúng bố cục và màu của Citenet: 🔵 bài gốc · 🟢 tài liệu tham khảo · 🟠 bài trích dẫn · 🩷 bài liên quan. Kéo để di chuyển, cuộn để phóng to, bấm chú thích để ẩn/hiện nhóm. Rê chuột vào nút để xem tooltip, bấm vào nút để mở bảng chi tiết.
 - **Danh sách tài liệu** có bộ lọc (quan hệ, thiết kế nghiên cứu, cần kiểm tra, từ khóa). Bộ lọc cũng làm mờ các nút không khớp trên biểu đồ.
 - **Tải về** CSV · RIS (Zotero/Mendeley/EndNote) · BibTeX (Overleaf) · báo cáo `summary.md`. Với bản đồ tự tạo, các file này được sinh ngay trong trình duyệt.
@@ -47,7 +53,8 @@ Mỗi bản đồ, dù là mẫu hay tự tạo, có:
 1. Chuẩn hóa DOI, rồi gọi song song **Crossref** `/works/{doi}` và **OpenAlex** `/works/https://doi.org/{doi}`.
 2. **Backward**: `referenced_works` của OpenAlex, gộp với DOI trong reference của Crossref, mỗi tài liệu tra một lần (5 luồng, tối đa khoảng 9 yêu cầu/giây).
 3. **Forward**: `filter=cites:{id}`, 20 bài được trích dẫn nhiều nhất. **Related**: 10 bài `related_works` đầu tiên.
-4. Gộp trùng, gắn nhãn bằng luật từ khóa (chủ đề, phương pháp, thiết kế, mức bằng chứng, độ tin cậy; dưới 0,74 thì đánh dấu "cần kiểm tra"), dựng bố cục, tạo cạnh và tóm tắt.
+4. Giữ `referenced_works` của từng bài (bản Python không lưu trường này) để tính trích dẫn chéo.
+5. Gộp trùng, gắn nhãn bằng luật từ khóa (chủ đề, phương pháp, thiết kế, mức bằng chứng, độ tin cậy; dưới 0,74 thì đánh dấu "cần kiểm tra"), dựng bố cục, tạo cạnh và tóm tắt.
 
 **Kiểm chứng:** `test/compare-with-python.mjs` chạy bản JS trên chính các phản hồi API mà bản Python đã lưu trong `work/Citenet/cache`, rồi so với `graph.json` của Python. Kết quả với 2 DOI (16 và 40 tài liệu): **0 khác biệt** ở mọi trường và mọi nhãn. Các file CSV, RIS và BibTeX giống hệt từng byte.
 
@@ -100,7 +107,10 @@ npm run build
 
 1. Chạy Citenet trên máy với DOI muốn giới thiệu: `.\run_citenet.ps1 "10.xxxx/yyyy"`.
 2. Thêm tên thư mục kết quả (slug, ví dụ `10-1016-j-bir-2024-04-014`) vào `maps` trong `collection.json`.
-3. `python scripts/build_data.py "<đường dẫn outputs/Citenet>"`. Script chỉ đưa lên web các bản đồ có trong danh sách, xóa dữ liệu cũ, và **không ghi đường dẫn máy tính** vào dữ liệu.
+3. `python scripts/build_data.py "<đường dẫn outputs/Citenet>"`.
+   - Script chỉ đưa lên web các bản đồ có trong danh sách, xóa dữ liệu cũ, và **không ghi đường dẫn máy tính** vào dữ liệu.
+   - Script tự đọc `work/Citenet/cache` (hoặc `--cache <thư mục>`) để gắn sẵn danh sách tài liệu tham khảo cho từng bài.
+   - Bản đồ nào không đủ dữ liệu trong cache: khi mở, trình duyệt tự lấy bù từ OpenAlex (khoảng 3 lượt gọi) và nhớ lại trong trình duyệt.
 4. Commit và push. Web cập nhật sau khoảng 30 giây.
 
 Các kết quả Citenet không có trong `collection.json` vẫn nằm riêng trên máy bạn.
@@ -115,10 +125,11 @@ Các kết quả Citenet không có trong `collection.json` vẫn nằm riêng t
 
 ## Hướng phát triển
 
-- [ ] So sánh hai bản đồ, tô sáng tài liệu chung
-- [ ] Xuất danh sách đã lọc
-- [ ] Đánh dấu đã đọc / muốn đọc
-- [ ] Mở rộng thêm một tầng (tài liệu tham khảo của tài liệu tham khảo)
+- [x] Bản đồ thông minh theo thời gian + trích dẫn chéo + "Nên đọc trước"
+- [x] Sàng lọc Đưa vào / Cân nhắc / Loại + sao chép DOI cho Zotero
+- [ ] Nhiều bài hạt giống: thêm bất kỳ bài nào làm hạt giống, gợi ý bài nối với nhiều hạt giống
+- [ ] Kiểm tra bài mới trích dẫn so với lần chạy trước
+- [ ] Để Zotero Connector nhận diện trang (chọn bài ngay trên trình duyệt)
 
 ## Ghi công
 
